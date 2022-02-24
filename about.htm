@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>UpSkill - STEM Competition</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="../modules/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../modules/css/themify-icons.css">
+		<link rel="stylesheet" href="../modules/css/slick.css">
+		<link rel="stylesheet" href="../modules/css/slick-theme.css">
+		<link rel="stylesheet" href="../modules/css/aos.css">
+		<link href="../assets/css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+		<link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+	</head>
+	<body id="top" data-spy="scroll" data-target="#navbar-spy" class="position-relative">
+		<div class="preloader position-fixed d-flex align-items-center justify-content-center">
+			<div class="block">
+				<div class="loader-image mb-20">
+					<img src="../assets/images/preloader.png" alt="Loading..">
+				</div>
+				<div class="loader-text text-uppercase">
+					<span class="mb-1">Welcome to</span>
+					<span>UpSkill</span>
+				</div>
+			</div>
+		</div>
+
+		<header class="header-nav position-relative bg-light-gray">
+			<div class="container">
+				<nav class="navbar navbar-expand-xl navbar-light px-0">
+					<a href="../"><img style="display:inline-block; margin-bottom: 12px" src="../assets/images/preloader.png" alt="Loading.."><h2 style="display:inline-block;margin-top: 7px;"> &nbsp;UpSkill</h1></a>
+					
+					<button class="navbar-toggler bg-white rounded-0 p-0" type="button" data-toggle="collapse" data-target="#navlinks" aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
+						<svg class="nav-toggle-icon" viewBox="0 0 100 100" width="40" onclick="this.classList.toggle('active')"><path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" /><path class="line middle" d="m 70,50 h -40" /><path class="line bottom" d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" /></svg>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navlinks">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="../index.html">Home</a>
+							</li>
+							<li class="nav-item @@about active">
+								<a class="nav-link" href="../about.htm">About</a>
+							</li>
+							<li class="nav-item @@service">
+								<a class="nav-link" href="../competition.htm">Competition</a>
+							</li>
+							<li class="nav-item @@team">
+								<a class="nav-link" href="../courses.htm">Courses</a>
+							</li>
+							<li class="nav-item @@contact">
+								<a class="nav-link" href="../contact.htm">Contact</a>
+							</li>
+							<li class="nav-item dropdown @@pages">
+								<a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="mr-1">Pages</span>
+									<svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 1.06L7.94 0L4.5 3.44L1.06 0L0 1.06L4.5 5.56L9 1.06Z" fill="currentColor"/></svg>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item @@terms" href="../pages/faq.htm">FAQs</a></li>
+									<li><a class="dropdown-item @@privacy" href="../pages/latestnews.htm">Latest News</a></li>
+									<li><a class="dropdown-item @@faq" href="../pages/privacypolicy.htm">Privacy Policy</a></li>
+									<li><a class="dropdown-item @@faq" href="../pages/termsandconditions.htm">Terms and Conditions</a></li>
+									<li><a class="dropdown-item @@changelog" href="../pages/press.htm">Press</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<div class="navbar-button">
+							<button class="btn btn-sm btn-outline-primary" onclick="window.open('copyright.htm', '_blank');">Copyright</button>
+							<button class="btn btn-sm btn-link pr-xl-0" onclick="window.open('https://github.com/RoyceAroc/upskill', '_blank');" >Source Code<svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg></button>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+        <section class="page-header bg-light-gray has-shapes has-bg-brash bg-brash-bottom" style="background-image:url(../assets/images/banner.svg)">
+            <div class="container h-100">
+                <div class="row d-flex align-items-center h-100">
+                    <div class="col-md-12 text-center">
+                        <h2 class="h1 font-weight-bold">About Us</h2>
+                        <nav class="mt-15" aria-label="breadcrumb">
+                            <ol class="breadcrumb font-weight-bold bg-transparent p-0 justify-content-center">
+                                <li class="breadcrumb-item"><a href="../index.html" class="text-black-300">Home</a></li>
+                                <li class="breadcrumb-item text-primary" aria-current="page">About</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="shape-1 bg-secondary shape-xs rounded-circle"></div>
+            <div class="shape-2 bg-primary shape-xs-2 rounded-circle"></div>
+            <div class="shape-3 bg-primary shape-sm-2 rounded-circle"></div>
+            <div class="shape-4 bg-tertiary shape-xs rounded-circle"></div>
+            <div class="shape-5 bg-tertiary shape-xs rounded-circle"></div>
+            <div class="shape-6 bg-primary shape-sm rounded-circle"></div>
+            <div class="shape-7 bg-primary shape-xs-2 rounded-circle"></div>
+            <div class="shape-8 bg-secondary shape-xs rounded-circle"></div>
+        </section>
+        <section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+            <div class="container">
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-lg-5 col-md-8 col-sm-10 mb-5">
+                        <h2 class="section-title">Our mission is to <strong>empower with STEM</strong></h2>
+                        <p class="pb-20 mb-20">
+                            We are an organization dedicated to providing the best education and challenges to our customers. We launched our company in 2003 and since then we have served more than 20,000 people ranging from 10-20. We strive to help our customers. We began in Cumming and now strive to reach people on a global scale. Our instructors will always give you the guidance to head in the right direction. We afterall do enable students to self grow. Our logo represents our love towards our kids and our hopes to help them grow whether that might through our courses or competitions.Upskill is an organization that is built on multiple values and we will always strive to improve ourselves for our customers.
+                        </p>
+                        
+                    </div>
+                    <div class="col-lg-5 col-md-8 col-sm-10">
+                        <div class="d-inline-block has-shadow shadow-right has-shapes">
+                            <img class="img-fluid rounded-sm" src="assets/images/c9.jpg" alt="">
+            
+                            <div class="shape-1 shape-md bg-secondary rounded-circle"></div>
+                            <div class="shape-2 shape-xl bg-tertiary rounded-circle"></div>
+                            <div class="shape-3 shape-lg bg-primary rounded-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        
+        <!-- start section -->
+        <section class="section-padding pt-0">
+            <div class="container">
+                <div class="shadow px-4 pt-30">
+                    <div class="has-colored-text row no-gutters overflow-hidden">
+                        <div class="col-lg-3 col-sm-6 text-center border-right border-md-0 mb-30" data-aos="fade-up">
+                            <p class="has-text-color mb-10 text-capitalize">Launched in April of</p>
+                            <h2 class="text-black-200 font-weight-bold">
+                            <span class="jsCounter-2" data-count="2003">0</span></h2>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 text-center border-right border-lg-0 mb-30" data-aos="fade-up" data-aos-delay="100">
+                            <p class="has-text-color mb-10 text-capitalize">Ages 10 to </p>
+                            <h2 class="text-black-200 font-weight-bold">
+                            <span class="jsCounter-2" data-count="20">10</span>+</h2>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 text-center border-right border-md-0 mb-30" data-aos="fade-up" data-aos-delay="200">
+                            <p class="has-text-color mb-10 text-capitalize">Number of Competitiors Worldwide</p>
+                            <h2 class="text-black-200 font-weight-bold">
+                            <span class="jsCounter-2" data-count="20">0</span>K+</h2>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 text-center mb-30" data-aos="fade-up" data-aos-delay="300">
+                            <p class="has-text-color mb-10 text-capitalize">Competitions Held</p>
+                            <h2 class="text-black-200 font-weight-bold">
+                            <span class="jsCounter-2" data-count="74">0</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<footer class="bg-light-gray has-shapes has-bg-brash bg-brash-top " style="background-image: url(../assets/images/footer.svg)">
+    <div class="container">
+
+        <div class="row pt-60 pb-60">
+            <div class="col-lg-4 col-md-6">
+                <div class="pr-0 pr-lg-4">
+                    <img style="display: inline-block;" class="mb-25" src="../assets/images/preloader.png" alt=""> <h1 style="display: inline-block;"> UpSkill</h1>
+                    <p>An organization promoting excellence in STEM and leadership skills to students across the globe. Proudly hosting competitions, educational programs, and conferences since 2003.</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md col-sm-6">
+                <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+                    <h5 class="font-weight-600 mb-20">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="../about.htm">About</a></li>
+                        <li><a href="../competition.htm">Competition</a></li>
+                        <li><a href="../courses.htm">Tutorials</a></li>
+                        <li><a href="../contact.htm">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md col-sm-6">
+                <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+                    <h5 class="font-weight-600 mb-20">Social Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#!">Facebook</a></li>
+                        <li><a href="#!">Instagram</a></li>
+                        <li><a href="#!">Twitter</a></li>
+                        <li><a href="#!">Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+			
+            <div class="col-lg-4 col-md-6">
+                <div class="pl-0 pl-lg-4 mt-5 mt-lg-0">
+                    <h5 class="font-weight-600">Lets Subscribe Your Email</h5>
+                    <form action="" method="post" class="needs-validation mt-30" novalidate>
+                        <div class="input-group">
+                            <input type="email" class="form-control bg-gray" placeholder="Your email address" required>
+                            <div class="input-group-append ml-0">
+                                <button type="submit" class="btn btn-primary"><svg width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.7071 8.70808C31.0976 8.31756 31.0976 7.68439 30.7071 7.29387L24.3431 0.929909C23.9526 0.539384 23.3195 0.539384 22.9289 0.929909C22.5384 1.32043 22.5384 1.9536 22.9289 2.34412L28.5858 8.00098L22.9289 13.6578C22.5384 14.0484 22.5384 14.6815 22.9289 15.072C23.3195 15.4626 23.9526 15.4626 24.3431 15.072L30.7071 8.70808ZM0 9.00098H30V7.00098H0V9.00098Z" fill="white"/></svg></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block border-top text-center content">
+                        Copyright &copy; 2022 Designed & Developed for TSA Webmaster</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shape-1 shape-xs bg-primary rounded-circle"></div>
+    <div class="shape-2 shape-sm-2 bg-tertiary rounded-circle"></div>
+    <div class="shape-3 shape-sm bg-secondary rounded-circle"></div>
+    <div class="shape-4 shape-xs-2 bg-tertiary rounded-circle"></div>
+    <div class="shape-5 shape-sm-2 bg-secondary rounded-circle"></div>
+    <div class="shape-6 shape-sm-2 bg-primary rounded-circle"></div>
+</footer>
+<!-- end footer -->
+
+<!-- start of videoModal -->
+<div class="modal fade rounded" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body p-0 bg-transparent">
+                <button type="button" class="close" data-dismiss="modal" onclick="document.getElementById('show_video').pause()"  aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" src="" id="showVideo" controls autoplay></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of videoModal -->
+
+<!-- strat scroll to top -->
+<a href="#top" class="btn btn-primary scroll-to-top-btn smooth-scroll position-fixed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"><path id="Layer" fill="currentColor" d="M7.2 19.2L15.2 11.2C15.68 10.71 16.43 10.68 16.96 11.08L17.08 11.2L25.08 19.2L23.2 21.08L16.14 14.02L9.08 21.08L7.2 19.2Z"/></svg></a>
+<!-- end scroll to top -->
+
+<!-- Plugins Needed for the Project -->
+<script src="../modules/js/jquery.min.js"></script>
+<script src="../modules/js/bootstrap.min.js"></script>
+<script src="../modules/js/slick.min.js"></script>
+<script src="../modules/js/shuffle.min.js"></script>
+<script src="../modules/js/aos.js"></script>
+
+<!-- Main Script -->
+<script src="../assets/js/script.js"></script>
+
+</body>
+</html>
